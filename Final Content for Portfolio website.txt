@@ -1,0 +1,50 @@
+﻿Hero Section
+Headline:
+Hi, I’m Hemin
+Almost award-winning designer
+Subheading:
+ Graphic Designer & Art Director with a multidisciplinary approach to solving visual problems.
+CTA Button:
+ Let’s Talk
+________________
+
+
+About Me
+Headline:
+Experience meets evolution
+Body Copy:
+ With 6+ years in graphic design, my work naturally expanded into front-end development, product design, and AI-driven creativity.
+I use Generative AI not as a shortcut, but as a tool to push ideas further — blending design expertise with emerging technology for smarter, sharper results.
+________________
+
+
+Skills
+Headline:
+What I do best
+Digital Graphic Design
+ I create visuals that tell a story and work seamlessly across digital platforms. Bold compositions, purposeful typography, and strategic use of color come together to make designs that stand out and resonate. From campaign assets to full digital experiences, my work is crafted to grab attention, hold it, and leave a lasting impression.
+Generative AI
+ I use Generative AI to explore unexpected directions, generate quick concept variations, and refine ideas with speed. It’s a tool to spark creativity, not replace it — helping me bring unique visual concepts to life faster and with greater impact.
+Art Direction
+ I set the visual tone for projects, ensuring every element aligns with a clear creative vision. From the smallest detail to the largest rollout, I keep design language consistent and compelling across all platforms.
+Branding
+ I build brand identities that are authentic, memorable, and strategic. Beyond logos and color palettes, I create systems that tell a brand’s story and strengthen its presence at every touchpoint.
+________________
+
+
+Project Teaser Section
+Headline:
+Selected work
+Body Copy:
+ A curated mix of projects I’ve designed, directed, and refined over the years. Each piece reflects a balance of creativity, clarity, and purpose — with a focus on delivering results that matter.
+________________
+
+
+Final CTA
+Headline:
+Let’s make something you’ll love.
+Body Copy:
+ Full-time roles only.
+I’m one email away from making your brand look like it has its life together.
+CTA Button:
+ Let’s Talk
