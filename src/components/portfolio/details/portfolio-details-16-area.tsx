@@ -7,16 +7,18 @@ import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
 
 // images
-import full_image from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
-import full_image_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg';
-import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
-import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
-import port_img_3 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg';
-import port_img_4 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
-import port_img_5 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
+import full_image from '@/assets/img/inner-project/rizvi/Old-and-New-Logo.jpg';
+import full_image_2 from '@/assets/img/inner-project/rizvi/Full-size-brand-close-up.png';
+import port_img_1 from '@/assets/img/inner-project/rizvi/Stationary-e1554803131367.jpg';
+import port_img_2 from '@/assets/img/inner-project/rizvi/Badge-mockup-101-1-e1554803417692.jpg';
+import port_img_3 from '@/assets/img/inner-project/rizvi/A4_Brochure-e1554803688357.jpg';
+import port_img_4 from '@/assets/img/inner-project/rizvi/All-four-posters.jpg';
+import port_img_5 from '@/assets/img/inner-project/rizvi/Lift-mockup-e1554803882296.jpg';
+import sketches_1 from '@/assets/img/inner-project/rizvi/sketches.jpg';
+import sketches_2 from '@/assets/img/inner-project/rizvi/sketches 2 .jpg';
 
 // slider images
-const slider_images = [port_img_3,port_img_4,port_img_5,port_img_4];
+const slider_images = [port_img_1, port_img_2, port_img_3, port_img_4, port_img_5, sketches_1, sketches_2];
 
 // slider setting
 const slider_setting:SwiperOptions = {
@@ -63,7 +65,7 @@ export default function PortfolioDetailsSixteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Rizvi</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">Rizvi Institute of Management Studies & Research</h2>
                   </div>
                 </div>
             </div>
@@ -95,7 +97,7 @@ export default function PortfolioDetailsSixteenArea() {
 
       {/* full image */}
       <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="Rizvi" style={{ height: 'auto' }}/>
+          <Image data-speed=".8" src={full_image} alt="Rizvi Logo Evolution - Oldest to New Logo" style={{ height: 'auto' }}/>
       </div>
       {/* full image */}
 
@@ -105,7 +107,7 @@ export default function PortfolioDetailsSixteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-2-section-box">
-                      <h4 className="showcase-details-2-section-title tp-char-animation">Educational Branding</h4>
+                      <h4 className="showcase-details-2-section-title rizvi-section-title">To develop intellectual, knowledge based community</h4>
                   </div>
                 </div>
             </div>
@@ -114,14 +116,14 @@ export default function PortfolioDetailsSixteenArea() {
                   <div className="showcase-details-2-section-left">
                       <span className="ab-inner-subtitle mb-25">
                         <Leaf/>
-                        Academic Identity
+                        Brand Strategy
                       </span>
                   </div>
                 </div>
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
-                      <p className="pb-25">Comprehensive brand development for Rizvi, focusing on creating a distinctive educational identity that resonates with students, parents, and the academic community.</p>
-                      <p>The branding strategy encompasses institutional values, academic excellence, and modern educational approaches while maintaining trust and credibility in the educational sector.</p>
+                      <p className="pb-25">Rizvi Institute of Management Studies & Research is a leader amongst the new generation of B-schools in India today. In more than 2 decades of existence, the institute has already created a niche for itself in the field of management education.</p>
+                      <p>We have created a comprehensive brand experience that is clean, simple, honest and professional. We have created a visual identity that scales and co-brands well. The new visual storytelling is evocative, real, and clear, and the voice captures Rizvi's devotion to the success of its students, collaborative spirit, and integrity.</p>
                   </div>
                 </div>
             </div>
@@ -129,27 +131,32 @@ export default function PortfolioDetailsSixteenArea() {
       </div>
       {/* details area */}
 
-    {/*details thumb */}
-        <div id="xyz" className="tp-project-details-3-thumb mb-120">
-          <div className="container container-1560">
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed=".8" src={full_image_2} alt="Rizvi branding" style={{ height: 'auto' }}/>
+      {/* design process sketches */}
+      <div className="showcase-details-thumb-wrap pb-120">
+          <div className="container container-1430">
+            <div className="row gx-80">
+                <div className="col-xl-6 col-lg-6">
+                  <div className="showcase-details-thumb mb-80">
+                      <Image data-speed=".8" src={sketches_1} alt="Rizvi Design Sketches - Initial Concepts" style={{height: "auto"}}/>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6">
+                  <div className="showcase-details-thumb mb-80">
+                      <Image data-speed=".8" src={sketches_2} alt="Rizvi Design Process - Development" style={{height: "auto"}}/>
                   </div>
                 </div>
             </div>
           </div>
       </div>
-    {/* details thumb */}
+      {/* design process sketches */}
 
-    {/* details area */}
+    {/* details area - Brand Excellence */}
     <div className="showcase-details-2-area pb-120">
         <div className="container">
           <div className="row">
               <div className="col-xl-8">
                 <div className="showcase-details-2-section-box">
-                    <h4 className="showcase-details-2-section-title tp-char-animation">Institution Impact</h4>
+                    <h4 className="showcase-details-2-section-title rizvi-section-title">Brand Excellence</h4>
                 </div>
               </div>
           </div>
@@ -157,35 +164,69 @@ export default function PortfolioDetailsSixteenArea() {
               <div className="col-xl-3">
                 <div className="showcase-details-2-section-left">
                     <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Educational Excellence
+                        <Leaf/>
+                        Visual Identity
                     </span>
                 </div>
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The new Rizvi brand identity successfully positioned the institution as a modern, progressive educational leader, attracting quality students and enhancing academic reputation.</p>
-                    <p>Consistent brand application across campus signage, digital platforms, and academic materials reinforced the institution's commitment to excellence and innovation in education.</p>
+                    <p className="pb-25">Messaging centers around empowerment, accessibility and academic excellence. The logo embodies Rizvi's tradition of focussing on excellence in education and life.</p>
+                    <p>Set up in the serene and scenic neighborhood of Carter Road Bandra, the RIMSR provides students with an infrastructure that enables conducive atmosphere for learning. Our graduates are young aspirants battling their way up with cannons of confidence and competence instilled in them by the institute.</p>
                 </div>
               </div>
           </div>
         </div>
     </div>
-    {/* details area */}
+    {/* details area - Brand Excellence */}
 
-     {/* slider images area */}
-     <div className="pd-visual-slider-wrap pb-40">
-          <Swiper {...slider_setting} modules={[Autoplay]} className="swiper-container pd-visual-slider-active">
-              {slider_images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pd-visual-slider-thumb fix">
-                    <Image src={imgSrc} alt="Rizvi portfolio" style={{height:"auto"}}/>
+    {/* full-stretch brand close-up */}
+    <div className="tp-project-details-3-full-width-thumb mb-120">
+        <Image data-speed=".8" src={full_image_2} alt="Rizvi Institute Logo with Tagline - The Tradition of Academic Excellence" style={{ height: 'auto' }}/>
+    </div>
+    {/* full-stretch brand close-up */}
+
+
+
+
+
+     {/* gallery showcase */}
+     <div className="showcase-details-thumb-wrap pb-120">
+          <div className="container container-1430">
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_1} alt="Rizvi Stationery Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        </div>
-      {/* slider images area */}
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_2} alt="Rizvi Badge Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_3} alt="Rizvi Brochure Design" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_4} alt="Rizvi Poster Designs" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_5} alt="Rizvi Environmental Signage" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* gallery showcase */}
     </>
   )
 }

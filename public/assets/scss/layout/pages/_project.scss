@@ -3619,19 +3619,81 @@
 
 
 .tp-project-details-3-full-width-thumb{
-    height: 840px;
+    height: auto;
+    min-height: 425px; /* Reduced by 15% from 500px */
     overflow: hidden;
+    
+    & img {
+        width: 85%; /* Reduced by 15% from 100% */
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        margin: 0 auto;
+        display: block;
+    }
+    
     @media #{$xl}{
-        height: 510px;
+        min-height: 383px; /* Reduced by 15% from 450px */
     }
     @media #{$lg}{
-        height: 400px;
+        min-height: 340px; /* Reduced by 15% from 400px */
     }
     @media #{$md,$xs}{
-        height: 400px;
-        & img{
-            height: 500px;
-        }
+        min-height: 255px; /* Reduced by 15% from 300px */
+    }
+}
+
+// Custom Rizvi title styling
+.rizvi-title-custom {
+    text-transform: none !important; /* Remove all caps */
+    font-size: 96px !important; /* 40% reduction from 160px */
+    
+    @media #{$xxl} {
+        font-size: 90px !important; /* 40% reduction from 150px */
+    }
+    @media #{$xl} {
+        font-size: 84px !important; /* 40% reduction from 140px */
+    }
+    @media #{$lg} {
+        font-size: 72px !important; /* 40% reduction from 120px */
+    }
+    @media #{$md} {
+        font-size: 60px !important; /* 40% reduction from 100px */
+    }
+    @media #{$sm} {
+        font-size: 48px !important; /* 40% reduction from 80px */
+    }
+    @media #{$xs} {
+        font-size: 36px !important; /* 40% reduction from 60px */
+    }
+}
+
+// Custom Rizvi section title styling
+.rizvi-section-title {
+    text-transform: none !important; /* Remove all caps */
+    font-size: 48px !important; /* Bigger heading size */
+    letter-spacing: normal !important; /* Fix spacing issues */
+    word-spacing: normal !important; /* Ensure proper word spacing */
+    font-weight: 600 !important; /* Make it bolder */
+    line-height: 1.2 !important; /* Better line spacing */
+    
+    @media #{$xxl} {
+        font-size: 45px !important;
+    }
+    @media #{$xl} {
+        font-size: 42px !important;
+    }
+    @media #{$lg} {
+        font-size: 38px !important;
+    }
+    @media #{$md} {
+        font-size: 34px !important;
+    }
+    @media #{$sm} {
+        font-size: 30px !important;
+    }
+    @media #{$xs} {
+        font-size: 26px !important;
     }
 }
 .tp-project-details-3-thumb-box{
@@ -3893,6 +3955,122 @@
         object-fit: cover;
         @media #{$xs}{
             width: 100%;
+        }
+    }
+}
+
+// Square image containers for 1080x1080 images
+.square-image-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 8px;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+// Video placeholder containers
+.video-placeholder-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9; // Standard video aspect ratio
+    margin-bottom: 30px;
+    
+    .video-placeholder {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border: 2px dashed #ddd;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+        
+        span {
+            padding: 20px;
+        }
+    }
+}
+
+// Skoda carousel styling
+.skoda-carousel {
+    padding: 40px 0;
+    
+    .swiper-slide {
+        transition: all 0.3s ease;
+        opacity: 0.7;
+        transform: scale(0.9);
+        
+        &.swiper-slide-active {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    .swiper-pagination {
+        bottom: -50px;
+        
+        .swiper-pagination-bullet {
+            background: #333;
+            opacity: 0.3;
+            
+            &.swiper-pagination-bullet-active {
+                opacity: 1;
+                background: #007bff;
+            }
+        }
+    }
+    
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #333;
+        
+        &:after {
+            font-size: 20px;
+        }
+    }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .square-image-container {
+        margin-bottom: 20px;
+    }
+    
+    .video-placeholder-container {
+        margin-bottom: 20px;
+        
+        .video-placeholder {
+            span {
+                font-size: 16px;
+                padding: 15px;
+            }
+        }
+    }
+    
+    .skoda-carousel {
+        padding: 20px 0;
+        
+        .swiper-button-next,
+        .swiper-button-prev {
+            display: none;
         }
     }
 }

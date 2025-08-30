@@ -7,13 +7,13 @@ import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
 
 // images
-import full_image from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
-import full_image_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg';
-import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
-import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
-import port_img_3 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg';
-import port_img_4 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
-import port_img_5 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
+import full_image from '@/assets/img/inner-project/redd/Red-Logo-on-red-colour.jpg';
+import full_image_2 from '@/assets/img/inner-project/redd/Symbol-Evelution.jpg';
+import port_img_1 from '@/assets/img/inner-project/redd/Logo-Mockup.jpg';
+import port_img_2 from '@/assets/img/inner-project/redd/Stationary.jpg';
+import port_img_3 from '@/assets/img/inner-project/redd/Long-Ambulance-02.png';
+import port_img_4 from '@/assets/img/inner-project/redd/Uniform.jpg';
+import port_img_5 from '@/assets/img/inner-project/redd/Vehical-Mockup.jpg';
 
 // slider images
 const slider_images = [port_img_3,port_img_4,port_img_5,port_img_4];
@@ -63,7 +63,7 @@ export default function PortfolioDetailsFifteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">REDD</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">REDD</h2>
                   </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@ export default function PortfolioDetailsFifteenArea() {
 
       {/* full image */}
       <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="REDD" style={{ height: 'auto' }}/>
+          <Image data-speed=".8" src={full_image} alt="REDD Logo on Red Background" style={{ height: 'auto' }}/>
       </div>
       {/* full image */}
 
@@ -105,7 +105,7 @@ export default function PortfolioDetailsFifteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-2-section-box">
-                      <h4 className="showcase-details-2-section-title tp-char-animation">Brand Identity</h4>
+                      <h4 className="showcase-details-2-section-title rizvi-section-title">Emergency Services Branding</h4>
                   </div>
                 </div>
             </div>
@@ -114,14 +114,14 @@ export default function PortfolioDetailsFifteenArea() {
                   <div className="showcase-details-2-section-left">
                       <span className="ab-inner-subtitle mb-25">
                         <Leaf/>
-                        Brand Development
+                        Brand Strategy
                       </span>
                   </div>
                 </div>
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
-                      <p className="pb-25">Complete brand identity design for REDD, creating a cohesive visual system that reflects their values and connects with their target audience.</p>
-                      <p>The comprehensive branding solution encompasses logo design, color palette, typography, and brand guidelines that establish a strong market presence and memorable brand experience.</p>
+                      <p className="pb-25">REDD is a comprehensive emergency services brand identity that represents reliability, urgency, and trust in critical situations. The brand system was designed to work across multiple emergency service applications.</p>
+                      <p>The visual identity emphasizes bold, clear communication with high visibility elements essential for emergency services, ensuring immediate recognition and professional credibility in life-saving scenarios.</p>
                   </div>
                 </div>
             </div>
@@ -130,17 +130,9 @@ export default function PortfolioDetailsFifteenArea() {
       {/* details area */}
 
     {/*details thumb */}
-        <div id="xyz" className="tp-project-details-3-thumb mb-120">
-          <div className="container container-1560">
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed=".8" src={full_image_2} alt="REDD branding" style={{ height: 'auto' }}/>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div>
+        <div id="xyz" className="tp-project-details-3-full-width-thumb mb-120">
+            <Image data-speed=".8" src={full_image_2} alt="REDD Symbol Evolution Process" style={{ height: 'auto' }}/>
+        </div>
     {/* details thumb */}
 
     {/* details area */}
@@ -149,23 +141,23 @@ export default function PortfolioDetailsFifteenArea() {
           <div className="row">
               <div className="col-xl-8">
                 <div className="showcase-details-2-section-box">
-                    <h4 className="showcase-details-2-section-title tp-char-animation">Brand Impact</h4>
+                    <h4 className="showcase-details-2-section-title rizvi-section-title">Brand Excellence</h4>
                 </div>
               </div>
           </div>
           <div className="row">
               <div className="col-xl-3">
                 <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Market Response
-                    </span>
+                                          <span className="ab-inner-subtitle mb-25">
+                        <Leaf/>
+                        Visual Identity
+                      </span>
                 </div>
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The new REDD brand identity successfully established a distinctive market position, resulting in increased brand recognition and customer engagement across all touchpoints.</p>
-                    <p>Strategic brand application across digital and print media helped REDD differentiate from competitors and build stronger connections with their target demographic.</p>
+                    <p className="pb-25">The REDD symbol evolution showcases the development process from concept to final implementation, demonstrating strategic thinking in emergency services branding where clarity and instant recognition are paramount.</p>
+                    <p>The final brand system includes comprehensive applications across vehicles, uniforms, stationery, and emergency equipment, ensuring consistent professional identity across all service touchpoints.</p>
                 </div>
               </div>
           </div>
@@ -173,19 +165,43 @@ export default function PortfolioDetailsFifteenArea() {
     </div>
     {/* details area */}
 
-     {/* slider images area */}
-     <div className="pd-visual-slider-wrap pb-40">
-          <Swiper {...slider_setting} modules={[Autoplay]} className="swiper-container pd-visual-slider-active">
-              {slider_images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pd-visual-slider-thumb fix">
-                    <Image src={imgSrc} alt="REDD portfolio" style={{height:"auto"}}/>
+     {/* gallery showcase */}
+     <div className="showcase-details-thumb-wrap pb-120">
+          <div className="container container-1430">
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_1} alt="REDD Logo Mockup" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        </div>
-      {/* slider images area */}
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_2} alt="REDD Stationery Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_3} alt="REDD Long Ambulance Branding" style={{height: "600px", width: "100%", objectFit: "contain", objectPosition: "center", backgroundColor: "#f8f9fa"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_4} alt="REDD Uniform Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="showcase-details-thumb mb-30">
+                      <Image src={port_img_5} alt="REDD Vehicle Mockup" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* gallery showcase */}
     </>
   )
 }

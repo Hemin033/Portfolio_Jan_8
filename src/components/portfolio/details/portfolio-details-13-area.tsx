@@ -7,13 +7,20 @@ import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
 
 // images
-import full_image from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
-import full_image_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg';
-import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
-import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
-import port_img_3 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg';
-import port_img_4 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
-import port_img_5 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
+import full_image from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-06-1-e1554806392835.jpg';
+import full_image_2 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-05-1-e1554806442179.jpg';
+import port_img_1 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-09-e1554806472849.jpg';
+import port_img_2 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-11-1-e1554806845844.jpg';
+import port_img_3 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-13-1-e1554806897167.jpg';
+import port_img_4 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-15-e1554806540977.jpg';
+import port_img_5 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-16-e1554806555770.jpg';
+import port_img_6 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-17-e1554806581530.jpg';
+import port_img_7 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-18-1-e1554807034961.jpg';
+import port_img_8 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-19-e1554806615864.jpg';
+import port_img_9 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-20-e1554806638923.jpg';
+import port_img_10 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-21-e1554806657339.jpg';
+import port_img_11 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-22-e1554806696843.jpg';
+import port_img_12 from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-26.jpg';
 
 // slider images
 const slider_images = [port_img_3,port_img_4,port_img_5,port_img_4];
@@ -63,7 +70,7 @@ export default function PortfolioDetailsThirteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Officers Choice</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">Officer's Choice</h2>
                   </div>
                 </div>
             </div>
@@ -95,7 +102,7 @@ export default function PortfolioDetailsThirteenArea() {
 
       {/* full image */}
       <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="port-img" style={{ height: 'auto' }}/>
+          <Image data-speed=".8" src={full_image} alt="Officer's Choice Whisky Packaging Redesign" style={{ height: 'auto' }}/>
       </div>
       {/* full image */}
 
@@ -105,7 +112,7 @@ export default function PortfolioDetailsThirteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-2-section-box">
-                      <h4 className="showcase-details-2-section-title tp-char-animation">Premium Liquor Branding</h4>
+                      <h4 className="showcase-details-2-section-title rizvi-section-title">World's largest selling whisky</h4>
                   </div>
                 </div>
             </div>
@@ -120,8 +127,8 @@ export default function PortfolioDetailsThirteenArea() {
                 </div>
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
-                      <p className="pb-25">Sophisticated brand identity design for Officers Choice, crafting a premium positioning that reflects quality, tradition, and refined taste in the competitive liquor market.</p>
-                      <p>The branding strategy encompasses packaging design, marketing collateral, and brand guidelines that establish Officers Choice as a distinguished choice for discerning consumers.</p>
+                      <p className="pb-25">Launched in 1988 and positioned in the regular whiskey segment, Officer's Choice Whisky is one of the largest whisky brands in the world and also one of the largest exported spirits brand with a presence in over 18 countries.</p>
+                      <p>As part of our internal exercise we pick up any brand and try to see it from a different contemporary perspective. As part of this exercise we visualized rebranding of Officer's Choice whisky.</p>
                   </div>
                 </div>
             </div>
@@ -130,17 +137,9 @@ export default function PortfolioDetailsThirteenArea() {
       {/* details area */}
 
     {/*details thumb */}
-        <div id="xyz" className="tp-project-details-3-thumb mb-120">
-          <div className="container container-1560">
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed=".8" src={full_image_2} alt="port-img" style={{ height: 'auto' }}/>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div>
+        <div id="xyz" className="tp-project-details-3-full-width-thumb mb-120">
+            <Image data-speed=".8" src={full_image_2} alt="Officer's Choice Bottle Design Concepts" style={{ height: 'auto' }}/>
+        </div>
     {/* details thumb */}
 
     {/* details area */}
@@ -149,23 +148,23 @@ export default function PortfolioDetailsThirteenArea() {
           <div className="row">
               <div className="col-xl-8">
                 <div className="showcase-details-2-section-box">
-                    <h4 className="showcase-details-2-section-title tp-char-animation">Productivity Revolution</h4>
+                    <h4 className="showcase-details-2-section-title rizvi-section-title">Design Excellence</h4>
                 </div>
               </div>
           </div>
           <div className="row">
               <div className="col-xl-3">
                 <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Efficiency Gains
-                    </span>
+                                          <span className="ab-inner-subtitle mb-25">
+                        <Leaf/>
+                        Creative Vision
+                      </span>
                 </div>
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">Users report 10x faster content creation workflows with consistent quality and brand alignment across all generated materials.</p>
-                    <p>The AI assistant integrates seamlessly with existing content management systems and creative workflows, enabling teams to scale their content production effortlessly.</p>
+                    <p className="pb-25">This also worked as our pitch to the client. Although the clients were hesitant to change the current look but they were very happy and appreciative of our approach and effort.</p>
+                    <p>The comprehensive packaging redesign explores contemporary visual language while respecting the brand's heritage and market position in the competitive whisky segment.</p>
                 </div>
               </div>
           </div>
@@ -173,19 +172,96 @@ export default function PortfolioDetailsThirteenArea() {
     </div>
     {/* details area */}
 
-     {/* slider images area */}
-     <div className="pd-visual-slider-wrap pb-40">
-          <Swiper {...slider_setting} modules={[Autoplay]} className="swiper-container pd-visual-slider-active">
-              {slider_images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pd-visual-slider-thumb fix">
-                    <Image src={imgSrc} alt="port-img" style={{height:"auto"}}/>
+     {/* packaging gallery showcase */}
+     <div className="showcase-details-thumb-wrap pb-120">
+          <div className="container container-1430">
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                                             <Image src={port_img_1} alt="Officer's Choice Packaging Design 1" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        </div>
-      {/* slider images area */}
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                                             <Image src={port_img_2} alt="Officer's Choice Packaging Design 2" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_3} alt="Officer's Choice Premium Bottle Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_4} alt="Officer's Choice Label Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_5} alt="Officer's Choice Brand Identity" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_6} alt="Officer's Choice Complete Packaging System" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_7} alt="Officer's Choice Bottle Mockup 1" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_8} alt="Officer's Choice Premium Bottle Design Showcase" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_9} alt="Officer's Choice Bottle Mockup 3" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_10} alt="Officer's Choice Premium Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_11} alt="Officer's Choice Luxury Packaging" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="showcase-details-thumb mb-50">
+                      <Image src={port_img_12} alt="Officer's Choice Final Design Concept" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* packaging gallery showcase */}
     </>
   )
 }

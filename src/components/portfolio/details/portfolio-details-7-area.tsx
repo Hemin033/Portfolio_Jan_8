@@ -1,111 +1,91 @@
 import React from 'react';
-import { scroller } from 'react-scroll';
-import {Swiper,SwiperSlide} from 'swiper/react';
-import {Autoplay} from 'swiper/modules';
-import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
-import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import { scroller } from 'react-scroll';
+import { ScrollDownTwo } from '@/components/svg';
+import {Swiper,SwiperSlide} from 'swiper/react';
+import {Autoplay, Navigation, Pagination} from 'swiper/modules';
+import { SwiperOptions } from 'swiper/types';
 
 // images
-import full_image from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
-import full_image_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg';
-import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
-import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
-import port_img_3 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg';
-import port_img_4 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
-import port_img_5 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
+import hero_image from '@/assets/img/inner-project/skoda/1.jpg';
+import campaign_img_1 from '@/assets/img/inner-project/skoda/2.jpg';
+import details_thumb_1 from '@/assets/img/inner-project/skoda/3.jpg';
+import details_thumb_2 from '@/assets/img/inner-project/skoda/4.jpg';
+import details_thumb_3 from '@/assets/img/inner-project/skoda/5.jpg';
+import campaign_img_2 from '@/assets/img/inner-project/skoda/6.jpg';
+import additional_img_1 from '@/assets/img/inner-project/skoda/7.png';
+import additional_img_2 from '@/assets/img/inner-project/skoda/8.png';
+import additional_img_3 from '@/assets/img/inner-project/skoda/9.png';
 
-// slider images
-const slider_images = [port_img_3,port_img_4,port_img_5,port_img_4];
+// carousel images array for first 3 images
+const carousel_images = [hero_image, campaign_img_1, details_thumb_1];
 
-// slider setting
-const slider_setting:SwiperOptions = {
-  slidesPerView: 3,
+// carousel settings
+const carousel_setting: SwiperOptions = {
+  slidesPerView: 2.5,
   loop: true,
-  autoplay: true,
-  spaceBetween: 20,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  spaceBetween: 30,
   speed: 1000,
+  centeredSlides: true,
+  navigation: true,
+  pagination: {
+    clickable: true,
+  },
   breakpoints: {
     '1400': {
-      slidesPerView: 3,
+      slidesPerView: 2.5,
     },
     '1200': {
-      slidesPerView: 3,
+      slidesPerView: 2.2,
     },
     '992': {
-      slidesPerView: 2,
+      slidesPerView: 1.8,
     },
     '768': {
-      slidesPerView: 2,
+      slidesPerView: 1.5,
     },
     '576': {
-      slidesPerView: 1,
+      slidesPerView: 1.2,
     },
     '0': {
       slidesPerView: 1,
     },
   },
+  modules: [Autoplay, Navigation, Pagination],
 }
 
 export default function PortfolioDetailsSevenArea() {
   const scrollTo = () => {
-    scroller.scrollTo('xyz', {
+    scroller.scrollTo('skoda-details', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart',
     });
   };
+  
   return (
     <>
-      {/* details are */}
+      {/* empty header section */}
       <div className="tp-project-details-3-top tp-project-details-3-ptb">
           <div className="container container-1560">
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Mobile App Design</h2>
-                  </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-xl-6">
-                  <div className="tp-project-details-3-scroll smooth">
-                      <a onClick={scrollTo} className="pointer">
-                        <span>
-                            <ScrollDownTwo/>
-                        </span>
-                        Scroll to Explore
-                      </a>
-                  </div>
-                </div>
-                <div className="col-xl-6">
-                  <div className="tp-project-details-3-link mt-30 text-start text-md-end">
-                      <a href="#">
-                        Visit  Website
-                        <span>
-                            <UpArrowFour/>
-                        </span>
-                      </a>
-                  </div>
-                </div>
-            </div>
+            {/* Empty header as requested */}
           </div>
       </div>
-      {/* details are */}
+      {/* empty header section */}
 
-      {/* full image */}
-      <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="port-img" style={{ height: 'auto' }}/>
-      </div>
-      {/* full image */}
-
-      {/* details area */}
-      <div className="showcase-details-2-area pb-120">
+      {/* overview section */}
+      <div id="skoda-details" className="showcase-details-2-area pt-120 pb-120">
           <div className="container">
             <div className="row">
                 <div className="col-xl-12">
-                  <div className="showcase-details-2-section-box">
-                      <h4 className="showcase-details-2-section-title tp-char-animation">Mobile-First Approach</h4>
+                  <div className="showcase-details-2-section-box mb-80">
+                      <h4 className="showcase-details-2-section-title">
+                        Overview
+                      </h4>
                   </div>
                 </div>
             </div>
@@ -113,79 +93,197 @@ export default function PortfolioDetailsSevenArea() {
                 <div className="col-xl-3">
                   <div className="showcase-details-2-section-left">
                       <span className="ab-inner-subtitle mb-25">
-                        <Leaf/>
-                        App Development
+                        ✕ Brand Strategy
                       </span>
                   </div>
                 </div>
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
-                      <p className="pb-25">This mobile application was crafted with a mobile-first mindset, ensuring optimal performance and user experience on smartphones and tablets. The interface design prioritizes touch interactions and gesture-based navigation.</p>
-                      <p>We implemented native-like animations and micro-interactions that create a smooth, engaging experience while maintaining fast loading times and minimal battery usage.</p>
+                      <p className="pb-25">Skoda challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand's commitment to sustainability and cutting-edge technology in the automotive industry.</p>
                   </div>
                 </div>
             </div>
           </div>
       </div>
-      {/* details area */}
+      {/* overview section */}
 
-    {/*details thumb */}
-        <div id="xyz" className="tp-project-details-3-thumb mb-120">
-          <div className="container container-1560">
+      {/* first 3 images - 3 column grid */}
+      <div className="showcase-details-thumb-wrap pb-60">
+          <div className="container" style={{maxWidth: '1800px'}}>
+            <div className="row gx-4">
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1000px', margin: '0 auto'}}>
+                      <Image 
+                        src={hero_image} 
+                        alt="Skoda Campaign Image 1" 
+                        style={{
+                          width: '100%', 
+                          height: 'auto'
+                        }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1000px', margin: '0 auto'}}>
+                      <Image 
+                        src={campaign_img_1} 
+                        alt="Skoda Campaign Image 2" 
+                        style={{
+                          width: '100%', 
+                          height: 'auto'
+                        }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1000px', margin: '0 auto'}}>
+                      <Image 
+                        src={details_thumb_1} 
+                        alt="Skoda Campaign Image 3" 
+                        style={{
+                          width: '100%', 
+                          height: 'auto'
+                        }}
+                      />
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* first 3 images */}
+
+      {/* first video container */}
+      <div className="video-placeholder-container mb-60">
+          <div className="container">
             <div className="row">
                 <div className="col-xl-12">
-                  <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed=".8" src={full_image_2} alt="port-img" style={{ height: 'auto' }}/>
+                  <div className="video-placeholder">
+                      <span>Video Content Placeholder 1</span>
                   </div>
                 </div>
             </div>
           </div>
       </div>
-    {/* details thumb */}
+      {/* first video container */}
 
-    {/* details area */}
-    <div className="showcase-details-2-area pb-120">
-        <div className="container">
-          <div className="row">
-              <div className="col-xl-8">
-                <div className="showcase-details-2-section-box">
-                    <h4 className="showcase-details-2-section-title tp-char-animation">User Engagement</h4>
-                </div>
-              </div>
-          </div>
-          <div className="row">
-              <div className="col-xl-3">
-                <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Interaction Design
-                    </span>
-                </div>
-              </div>
-              <div className="col-xl-9">
-                <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The app features intuitive navigation patterns and engaging micro-interactions that guide users through their journey while maintaining high retention rates.</p>
-                    <p>Push notifications, personalization features, and social sharing capabilities were integrated to enhance user engagement and app stickiness.</p>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    {/* details area */}
-
-     {/* slider images area */}
-     <div className="pd-visual-slider-wrap pb-40">
-          <Swiper {...slider_setting} modules={[Autoplay]} className="swiper-container pd-visual-slider-active">
-              {slider_images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pd-visual-slider-thumb fix">
-                    <Image src={imgSrc} alt="port-img" style={{height:"auto"}}/>
+      {/* second 2 images */}
+      <div className="showcase-details-thumb-wrap pb-60">
+          <div className="container">
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={details_thumb_2} 
+                        alt="Skoda Campaign Image 4" 
+                        style={{
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover',
+                          aspectRatio: '1/1'
+                        }}
+                      />
                   </div>
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        </div>
-      {/* slider images area */}
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={details_thumb_3} 
+                        alt="Skoda Campaign Image 5" 
+                        style={{
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover',
+                          aspectRatio: '1/1'
+                        }}
+                      />
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* second 2 images */}
+
+      {/* second video container */}
+      <div className="video-placeholder-container mb-60">
+          <div className="container">
+            <div className="row">
+                <div className="col-xl-12">
+                  <div className="video-placeholder">
+                      <span>Video Content Placeholder 2</span>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* second video container */}
+
+      {/* remaining images scroll */}
+      <div className="showcase-details-thumb-wrap pb-120">
+          <div className="container">
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={campaign_img_2} 
+                        alt="Skoda Campaign Image 6" 
+                        style={{
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover',
+                          aspectRatio: '1/1'
+                        }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={additional_img_1} 
+                        alt="Skoda Campaign Image 7" 
+                        style={{
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover',
+                          aspectRatio: '1/1'
+                        }}
+                      />
+                  </div>
+                </div>
+            </div>
+            <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={additional_img_2} 
+                        alt="Skoda Campaign Image 8" 
+                        style={{
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover',
+                          aspectRatio: '1/1'
+                        }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={additional_img_3} 
+                        alt="Skoda Campaign Image 9" 
+                        style={{
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover',
+                          aspectRatio: '1/1'
+                        }}
+                      />
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      {/* remaining images scroll */}
+
     </>
   )
 }

@@ -20,7 +20,7 @@ const portfolio_data = [
     id: 2,
     img: "/assets/img/inner-project/portfolio-col-2/port-2.jpg",
     category: "Branding",
-    title: "Rizvi",
+    title: "Rizvi Institute of Management Studies & Research",
     year: "2023",
     show: "cat3",
     detailsPath: "/portfolio-details-16",
