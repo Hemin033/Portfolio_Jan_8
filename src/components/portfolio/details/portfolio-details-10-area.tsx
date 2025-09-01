@@ -1,69 +1,39 @@
 import React from 'react';
-import { scroller } from 'react-scroll';
-import {Swiper,SwiperSlide} from 'swiper/react';
-import {Autoplay} from 'swiper/modules';
-import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
-import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import { scroller } from 'react-scroll';
+import { Leaf, ScrollDownTwo, UpArrowFour } from '@/components/svg';
 
-// images
-import full_image from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
-import full_image_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-2.jpg';
-import port_img_1 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-3.jpg';
-import port_img_2 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-4.jpg';
-import port_img_3 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-5.jpg';
-import port_img_4 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
-import port_img_5 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
+// images (BGauss) - use public paths
+const img1 = '/assets/img/inner-project/bgauss/1.jpg';
+const img2 = '/assets/img/inner-project/bgauss/2.jpg';
+const img3 = '/assets/img/inner-project/bgauss/3.png';
+const img4 = '/assets/img/inner-project/bgauss/4.jpg';
+const img5 = '/assets/img/inner-project/bgauss/5.jpg';
+const img6 = '/assets/img/inner-project/bgauss/6.png';
+const img7 = '/assets/img/inner-project/bgauss/7.png';
+const img8 = '/assets/img/inner-project/bgauss/CleanShot 2025-09-01 at 14.18.51.png';
 
-// slider images
-const slider_images = [port_img_3,port_img_4,port_img_5,port_img_4];
-
-// slider setting
-const slider_setting:SwiperOptions = {
-  slidesPerView: 3,
-  loop: true,
-  autoplay: true,
-  spaceBetween: 20,
-  speed: 1000,
-  breakpoints: {
-    '1400': {
-      slidesPerView: 3,
-    },
-    '1200': {
-      slidesPerView: 3,
-    },
-    '992': {
-      slidesPerView: 2,
-    },
-    '768': {
-      slidesPerView: 2,
-    },
-    '576': {
-      slidesPerView: 1,
-    },
-    '0': {
-      slidesPerView: 1,
-    },
-  },
-}
+// no slider needed
 
 export default function PortfolioDetailsTenArea() {
   const scrollTo = () => {
-    scroller.scrollTo('xyz', {
+    scroller.scrollTo('bgauss-details', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart',
     });
   };
+
   return (
     <>
       {/* details are */}
+      {/* top hero header like RW Science */}
       <div className="tp-project-details-3-top tp-project-details-3-ptb">
           <div className="container container-1560">
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Web Design Excellence</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">BGAUSS</h2>
                   </div>
                 </div>
             </div>
@@ -80,7 +50,7 @@ export default function PortfolioDetailsTenArea() {
                 </div>
                 <div className="col-xl-6">
                   <div className="tp-project-details-3-link mt-30 text-start text-md-end">
-                      <a href="#">
+                      <a href="#" rel="noopener noreferrer">
                         Visit  Website
                         <span>
                             <UpArrowFour/>
@@ -91,101 +61,129 @@ export default function PortfolioDetailsTenArea() {
             </div>
           </div>
       </div>
-      {/* details are */}
 
-      {/* full image */}
-      <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="port-img" style={{ height: 'auto' }}/>
-      </div>
-      {/* full image */}
+      {/* hero image removed as requested */}
 
-      {/* details area */}
-      <div className="showcase-details-2-area pb-120">
-          <div className="container">
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="showcase-details-2-section-box">
-                      <h4 className="showcase-details-2-section-title tp-char-animation">Modern Web Solutions</h4>
+      {/* sticky + masonry layout */}
+      {/* RW Science-style layout */}
+      <div id="bgauss-details"></div>
+      <div className="showcase-details-thumb-wrap pb-60">
+          <div className="container" style={{maxWidth: '1800px'}}>
+            <div className="row gx-4">
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1000px', margin: '0 auto'}}>
+                      <Image 
+                        src={img8} 
+                        alt="BGauss CleanShot" 
+                        width={1500}
+                        height={1000}
+                        style={{ width: '100%', height: 'auto' }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1000px', margin: '0 auto'}}>
+                      <Image 
+                        src={img7} 
+                        alt="BGauss Image 7" 
+                        width={1500}
+                        height={1000}
+                        style={{ width: '100%', height: 'auto' }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1000px', margin: '0 auto'}}>
+                      <Image 
+                        src={img1} 
+                        alt="BGauss Image 1" 
+                        width={1500}
+                        height={1000}
+                        style={{ width: '100%', height: 'auto' }}
+                      />
                   </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-xl-3">
-                  <div className="showcase-details-2-section-left">
+          </div>
+      </div>
+
+      {/* overview + image 5 side-by-side; keep half grid, make image column full-height */}
+      <div className="showcase-details-2-area pb-120">
+          <div className="container" style={{maxWidth: '1800px'}}>
+            <div className="row align-items-stretch gx-4">
+                <div className="col-xl-6 col-lg-6">
+                  <div className="showcase-details-2-section-box mb-30">
+                      <h4 className="showcase-details-2-section-title">Overview</h4>
+                  </div>
+                  <div className="showcase-details-2-content-right">
                       <span className="ab-inner-subtitle mb-25">
                         <Leaf/>
-                        Web Development
+                        Web Design
                       </span>
+                      <p className="pb-25">A clean, performance-focused web experience for BGauss that highlights product details with crisp imagery and a minimal layout.</p>
                   </div>
                 </div>
-                <div className="col-xl-9">
-                  <div className="showcase-details-2-content-right tp_title_anim">
-                      <p className="pb-25">This web design project showcases cutting-edge design principles combined with modern development practices. The website features responsive layouts, smooth animations, and optimized performance.</p>
-                      <p>Advanced CSS techniques, JavaScript interactions, and progressive web app features create an immersive browsing experience that works flawlessly across all devices.</p>
-                  </div>
-                </div>
-            </div>
-          </div>
-      </div>
-      {/* details area */}
-
-    {/*details thumb */}
-        <div id="xyz" className="tp-project-details-3-thumb mb-120">
-          <div className="container container-1560">
-            <div className="row">
-                <div className="col-xl-12">
-                  <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed=".8" src={full_image_2} alt="port-img" style={{ height: 'auto' }}/>
+                <div className="col-xl-6 col-lg-6" style={{display:'flex'}}>
+                  <div className="showcase-details-thumb mb-30" style={{maxWidth: '1200px', margin: '0 auto', height: '100%', width: '100%'}}>
+                      <Image 
+                        src={img5} 
+                        alt="BGauss Image 5" 
+                        width={1600}
+                        height={1100}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      />
                   </div>
                 </div>
             </div>
           </div>
       </div>
-    {/* details thumb */}
 
-    {/* details area */}
-    <div className="showcase-details-2-area pb-120">
-        <div className="container">
-          <div className="row">
-              <div className="col-xl-8">
-                <div className="showcase-details-2-section-box">
-                    <h4 className="showcase-details-2-section-title tp-char-animation">Performance Optimization</h4>
-                </div>
-              </div>
-          </div>
-          <div className="row">
-              <div className="col-xl-3">
-                <div className="showcase-details-2-section-left">
-                    <span className="ab-inner-subtitle mb-25">
-                      <Leaf/>
-                      Technical Excellence
-                    </span>
-                </div>
-              </div>
-              <div className="col-xl-9">
-                <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">The website achieves exceptional performance scores with optimized loading times, efficient caching strategies, and minimal resource usage.</p>
-                    <p>SEO optimization, accessibility compliance, and cross-browser compatibility ensure maximum reach and usability for all users.</p>
-                </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    {/* details area */}
+      {/* removed image 4; overview now sits alongside image 5 */}
 
-     {/* slider images area */}
-     <div className="pd-visual-slider-wrap pb-40">
-          <Swiper {...slider_setting} modules={[Autoplay]} className="swiper-container pd-visual-slider-active">
-              {slider_images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pd-visual-slider-thumb fix">
-                    <Image src={imgSrc} alt="port-img" style={{height:"auto"}}/>
+      {/* remaining images scroll */}
+      <div className="showcase-details-thumb-wrap pb-120">
+          <div className="container" style={{maxWidth: '1800px'}}>
+            <div className="row gx-4">
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={img6} 
+                        alt="BGauss Image 6" 
+                        width={1600}
+                        height={1600}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '1/1' }}
+                      />
                   </div>
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        </div>
-      {/* slider images area */}
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={img2} 
+                        alt="BGauss Image 2" 
+                        width={1600}
+                        height={1600}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '1/1' }}
+                      />
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-4">
+                  <div className="square-image-container mb-30">
+                      <Image 
+                        src={img3} 
+                        alt="BGauss Image 3" 
+                        width={1600}
+                        height={1600}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover', aspectRatio: '1/1' }}
+                      />
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      {/* masonry handles all images; removed extra grid rows to avoid duplicates */}
+
+      {/* end sticky + masonry */}
     </>
   )
 }

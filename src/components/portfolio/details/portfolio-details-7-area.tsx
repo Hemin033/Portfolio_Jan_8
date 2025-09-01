@@ -79,7 +79,7 @@ export default function PortfolioDetailsSevenArea() {
 
       {/* overview section */}
       <div id="skoda-details" className="showcase-details-2-area pt-120 pb-120">
-          <div className="container">
+          <div className="container" style={{maxWidth: '1800px'}}>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-2-section-box mb-80">
@@ -154,7 +154,7 @@ export default function PortfolioDetailsSevenArea() {
 
       {/* first video container */}
       <div className="video-placeholder-container mb-60">
-          <div className="container">
+          <div className="container" style={{maxWidth: '1800px'}}>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="video-placeholder">
@@ -168,7 +168,7 @@ export default function PortfolioDetailsSevenArea() {
 
       {/* second 2 images */}
       <div className="showcase-details-thumb-wrap pb-60">
-          <div className="container">
+          <div className="container" style={{maxWidth: '1800px'}}>
             <div className="row gx-30">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="square-image-container mb-30">
@@ -205,7 +205,7 @@ export default function PortfolioDetailsSevenArea() {
 
       {/* second video container */}
       <div className="video-placeholder-container mb-60">
-          <div className="container">
+          <div className="container" style={{maxWidth: '1800px'}}>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="video-placeholder">
@@ -217,11 +217,19 @@ export default function PortfolioDetailsSevenArea() {
       </div>
       {/* second video container */}
 
+      {/* full width image 9 */}
+      <div className="tp-project-details-3-full-width-thumb mb-120">
+          <div className="container" style={{maxWidth: '1800px'}}>
+            <Image src={additional_img_3} alt="Skoda Campaign Image 9" style={{ height: 'auto', width: '100%' }}/>
+          </div>
+      </div>
+      {/* full width image 9 */}
+
       {/* remaining images scroll */}
       <div className="showcase-details-thumb-wrap pb-120">
-          <div className="container">
-            <div className="row gx-30">
-                <div className="col-xl-6 col-lg-6 col-md-6">
+          <div className="container" style={{maxWidth: '1800px'}}>
+            <div className="row gx-4">
+                <div className="col-xl-4 col-lg-4 col-md-4">
                   <div className="square-image-container mb-30">
                       <Image 
                         src={campaign_img_2} 
@@ -235,7 +243,7 @@ export default function PortfolioDetailsSevenArea() {
                       />
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-4">
                   <div className="square-image-container mb-30">
                       <Image 
                         src={additional_img_1} 
@@ -249,27 +257,11 @@ export default function PortfolioDetailsSevenArea() {
                       />
                   </div>
                 </div>
-            </div>
-            <div className="row gx-30">
-                <div className="col-xl-6 col-lg-6 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-4">
                   <div className="square-image-container mb-30">
                       <Image 
                         src={additional_img_2} 
                         alt="Skoda Campaign Image 8" 
-                        style={{
-                          width: '100%', 
-                          height: '100%', 
-                          objectFit: 'cover',
-                          aspectRatio: '1/1'
-                        }}
-                      />
-                  </div>
-                </div>
-                <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="square-image-container mb-30">
-                      <Image 
-                        src={additional_img_3} 
-                        alt="Skoda Campaign Image 9" 
                         style={{
                           width: '100%', 
                           height: '100%', 

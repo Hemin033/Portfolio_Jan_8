@@ -30,7 +30,6 @@ const PortfolioDetailsTenMain = () => {
       {/* header area start */}
       <HeaderEleven />
       {/* header area end */}
-
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

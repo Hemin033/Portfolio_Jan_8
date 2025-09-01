@@ -15,8 +15,11 @@ import port_img_3 from '@/assets/img/inner-project/portfolio-details-3/portfolio
 import port_img_4 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-6.jpg';
 import port_img_5 from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-7.jpg';
 
-// slider images
-const slider_images = [port_img_3,port_img_4,port_img_5,port_img_4];
+// videos
+const videos = [
+  "/assets/videos/jbcn-tvc/1616649026800.mp4",
+  "/assets/videos/jbcn-tvc/1697799496355.mp4",
+];
 
 // slider setting
 const slider_setting:SwiperOptions = {
@@ -93,11 +96,22 @@ export default function PortfolioDetailsFourteenArea() {
       </div>
       {/* details are */}
 
-      {/* full image */}
-      <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="port-img" style={{ height: 'auto' }}/>
+      {/* video section */}
+      <div className="project-details-video">
+        <div className="container" style={{ maxWidth: '1800px' }}>
+          <div className="row gx-4">
+            {videos.map((src) => (
+              <div key={src} className="col-xl-12 col-lg-12 col-md-12 mb-60">
+                <figure className="project-details-video-overlay">
+                  <video controls preload="metadata" playsInline style={{ width: '100%' }}>
+                    <source src={src} type="video/mp4" />
+                  </video>
+                </figure>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-      {/* full image */}
 
       {/* details area */}
       <div className="showcase-details-2-area pb-120">
@@ -173,19 +187,7 @@ export default function PortfolioDetailsFourteenArea() {
     </div>
     {/* details area */}
 
-     {/* slider images area */}
-     <div className="pd-visual-slider-wrap pb-40">
-          <Swiper {...slider_setting} modules={[Autoplay]} className="swiper-container pd-visual-slider-active">
-              {slider_images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pd-visual-slider-thumb fix">
-                    <Image src={imgSrc} alt="port-img" style={{height:"auto"}}/>
-                  </div>
-                </SwiperSlide>
-              ))}
-          </Swiper>
-        </div>
-      {/* slider images area */}
+     {/* removed image slider for TVC focus */}
     </>
   )
 }
