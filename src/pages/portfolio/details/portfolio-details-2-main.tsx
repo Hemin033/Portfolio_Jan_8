@@ -64,7 +64,7 @@ const PortfolioDetailsTwoMain = () => {
           <main>
             {/* portfolio details area */}
             <div className="project-details-2-area pt-190">
-               <div className="container container-1430">
+               <div className="container container-1560">
                   <div className="row">
                      <div className="col-xl-12">
                         <div className="project-details-2-slider-wrap">

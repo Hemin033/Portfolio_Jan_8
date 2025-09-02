@@ -174,7 +174,7 @@ export default function PortfolioDetailsThirteenArea() {
 
      {/* packaging gallery showcase */}
      <div className="showcase-details-thumb-wrap pb-120">
-          <div className="container container-1430">
+          <div className="container container-1560">
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">

@@ -167,23 +167,23 @@ export default function PortfolioDetailsSixArea() {
 
      {/* gallery showcase */}
      <div className="showcase-details-thumb-wrap pb-120">
-          <div className="container container-1430">
-            <div className="row gx-30">
-                <div className="col-xl-6 col-lg-6 col-md-6">
+          <div className="container container-1560">
+         <div className="row gx-30">
+                <div className="col-xl-6 col-lg-6" col-md-6>
                   <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_1} alt="Fat Man's Cafe Logo Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image data-speed=".8" src={port_img_1} alt="Fat Man's Cafe Logo Design" height="570"/>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_2} alt="Fat Man's Cafe Mascot Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  <div className="col-xl-6 col-lg-6">
+                  <div className="showcase-details-thumb mb-80">
+                      <Image data-speed=".8" src={port_img_2} alt="Fat Man's Cafe Mascot Design" style={{height: "auto"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_3} alt="Fat Man's Cafe Menu Design" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_3} alt="Fat Man's Cafe Menu Design" style={{height: "850px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>

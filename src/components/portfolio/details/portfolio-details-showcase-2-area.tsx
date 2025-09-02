@@ -33,7 +33,7 @@ export default function PortfolioDetailsShowcaseTwoArea() {
             </a>
           </div>
           <div className="showcase-details-2-wrapper" data-lag="0.2" data-stagger="0.08">
-            <div className="container container-1550">
+            <div className="container container-1560">
                 <div className="row">
                   <div className="col-xl-8">
                       <div className="showcase-details-2-title-box">

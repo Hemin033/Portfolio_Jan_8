@@ -133,7 +133,7 @@ export default function PortfolioDetailsSixteenArea() {
 
       {/* design process sketches */}
       <div className="showcase-details-thumb-wrap pb-120">
-          <div className="container container-1430">
+          <div className="container container-1560">
             <div className="row gx-80">
                 <div className="col-xl-6 col-lg-6">
                   <div className="showcase-details-thumb mb-80">
@@ -181,7 +181,7 @@ export default function PortfolioDetailsSixteenArea() {
     {/* details area - Brand Excellence */}
 
     {/* full-stretch brand close-up */}
-    <div className="tp-project-details-3-full-width-thumb mb-120">
+    <div className="tp-project-details-3-full-width-thumb mb-120 container-1800 flex mx-auto">
         <Image data-speed=".8" src={full_image_2} alt="Rizvi Institute Logo with Tagline - The Tradition of Academic Excellence" style={{ height: 'auto' }}/>
     </div>
     {/* full-stretch brand close-up */}
@@ -192,35 +192,35 @@ export default function PortfolioDetailsSixteenArea() {
 
      {/* gallery showcase */}
      <div className="showcase-details-thumb-wrap pb-120">
-          <div className="container container-1430">
-            <div className="row gx-30">
+          <div className="container container-1560">
+            <div className="row gx-15">
                 <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_1} alt="Rizvi Stationery Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  <div className="showcase-details-thumb mb-15">
+                      <Image data-speed=".8" src={port_img_1} alt="Rizvi Stationery Design" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_2} alt="Rizvi Badge Design" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  <div className="showcase-details-thumb mb-15">
+                      <Image data-speed=".8" src={port_img_2} alt="Rizvi Badge Design" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
-                  <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_3} alt="Rizvi Brochure Design" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  <div className="showcase-details-thumb mb-15">
+                      <Image data-speed=".8" src={port_img_3} alt="Rizvi Brochure Design" style={{height: "600px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
-            <div className="row gx-30">
+            <div className="row gx-15">
                 <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_4} alt="Rizvi Poster Designs" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  <div className="showcase-details-thumb mb-15">
+                      <Image data-speed=".8" src={port_img_4} alt="Rizvi Poster Designs" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_5} alt="Rizvi Environmental Signage" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                  <div className="showcase-details-thumb mb-15">
+                      <Image data-speed=".8" src={port_img_5} alt="Rizvi Environmental Signage" style={{height: "500px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>

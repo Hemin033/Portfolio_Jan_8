@@ -124,7 +124,7 @@ export default function PortfolioDetailsShowcaseArea() {
 
       {/* details thumb */}
       <div className="showcase-details-thumb-wrap pb-40">
-          <div className="container container-1430">
+          <div className="container container-1560">
             <div className="row gx-80">
                 <div className="col-xl-6 col-lg-6">
                   <div className="showcase-details-thumb mb-80">

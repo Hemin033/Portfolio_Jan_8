@@ -66,29 +66,7 @@ export default function PortfolioDetailsFourteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">Smart Automation Platform</h2>
-                  </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-xl-6">
-                  <div className="tp-project-details-3-scroll smooth">
-                      <a onClick={scrollTo} className="pointer">
-                        <span>
-                            <ScrollDownTwo/>
-                        </span>
-                        Scroll to Explore
-                      </a>
-                  </div>
-                </div>
-                <div className="col-xl-6">
-                  <div className="tp-project-details-3-link mt-30 text-start text-md-end">
-                      <a href="#">
-                        Visit  Website
-                        <span>
-                            <UpArrowFour/>
-                        </span>
-                      </a>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation">JBCN TVC</h2>
                   </div>
                 </div>
             </div>
@@ -96,19 +74,83 @@ export default function PortfolioDetailsFourteenArea() {
       </div>
       {/* details are */}
 
+      {/* Project Description Section */}
+      <div className="showcase-details-2-area pb-120">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-3">
+              <div className="showcase-details-2-section-left">
+                <span className="ab-inner-subtitle mb-25">
+                  <Leaf/>
+                  Enterprise Focus
+                </span>
+              </div>
+            </div>
+            <div className="col-xl-9">
+              <div className="showcase-details-2-content-right tp_title_anim">
+                <p className="pb-25">This enterprise-grade AI automation platform streamlines complex business processes through intelligent workflow optimization and predictive decision-making capabilities.</p>
+                <p>The platform integrates with existing enterprise systems to provide seamless automation, reducing operational costs while improving accuracy and efficiency across all departments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* video section */}
       <div className="project-details-video">
         <div className="container" style={{ maxWidth: '1800px' }}>
           <div className="row gx-4">
-            {videos.map((src) => (
-              <div key={src} className="col-xl-12 col-lg-12 col-md-12 mb-60">
-                <figure className="project-details-video-overlay">
-                  <video controls preload="metadata" playsInline style={{ width: '100%' }}>
-                    <source src={src} type="video/mp4" />
-                  </video>
-                </figure>
+            
+            {/* TVC 1 */}
+            <div className="col-xl-12 col-lg-12 col-md-12 mb-60">
+              <div className="tp-project-details-3-thumb">
+                <div className="tp-project-details-3-thumb-box">
+                  <figure className="project-details-video-overlay" data-speed=".8">
+                    <video controls preload="metadata" playsInline style={{ width: '100%' }}>
+                      <source src={videos[0]} type="video/mp4" />
+                    </video>
+                  </figure>
+                </div>
               </div>
-            ))}
+            </div>
+
+            {/* Text Field Before TVC 2 */}
+            <div className="col-xl-12 mb-60">
+              <div className="showcase-details-2-area">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xl-3">
+                      <div className="showcase-details-2-section-left">
+                        <span className="ab-inner-subtitle mb-25">
+                          <Leaf/>
+                          TVC 2 Focus
+                        </span>
+                      </div>
+                    </div>
+                    <div className="col-xl-9">
+                      <div className="showcase-details-2-content-right tp_title_anim">
+                        <p className="pb-25">The second commercial emphasizes user experience and accessibility features of the platform. We created compelling visuals that demonstrate real-world applications.</p>
+                        <p>This TVC focuses on cost reduction and efficiency improvements across different enterprise departments and operational workflows.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* TVC 2 */}
+            <div className="col-xl-12 col-lg-12 col-md-12 mb-60">
+              <div className="tp-project-details-3-thumb">
+                <div className="tp-project-details-3-thumb-box">
+                  <figure className="project-details-video-overlay" data-speed=".6">
+                    <video controls preload="metadata" playsInline style={{ width: '100%' }}>
+                      <source src={videos[1]} type="video/mp4" />
+                    </video>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

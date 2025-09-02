@@ -167,7 +167,7 @@ export default function PortfolioDetailsFifteenArea() {
 
      {/* gallery showcase */}
      <div className="showcase-details-thumb-wrap pb-120">
-          <div className="container container-1430">
+          <div className="container container-1560">
             <div className="row gx-30">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="showcase-details-thumb mb-30">

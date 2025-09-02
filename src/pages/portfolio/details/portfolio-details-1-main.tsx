@@ -50,7 +50,7 @@ const PortfolioDetailsOneMain = () => {
           <main>
             {/* portfolio details area */}
             <div className="project-details-1-area project-details-1-pt">
-               <div className="container-fluid p-0">
+               <div className="container container-1560">
                   <div className="row g-0">
                      <div className="col-xl-7">
                         <div className="project-details-1-left">
