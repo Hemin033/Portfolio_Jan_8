@@ -85,6 +85,7 @@ export default function ProjectFour({ style_2 = false }: IProps) {
                       <Link
                         className="tp-btn-project-sm"
                         href="/portfolio-details-3"
+                        style={{fontSize: "18px"}}
                       >
                         See Project
                       </Link>

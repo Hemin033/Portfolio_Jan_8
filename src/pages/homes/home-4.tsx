@@ -22,6 +22,7 @@ import { textInvert } from "@/utils/text-invert";
 import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
+import HeaderEleven from "@/layouts/headers/header-eleven";
 
 const HomeFourMain = () => {
   useScrollSmooth();
@@ -47,7 +48,7 @@ const HomeFourMain = () => {
     <Wrapper>
 
       {/* header area start */}
-      <HeaderFour />
+      <HeaderEleven />
       {/* header area end */}
 
       <div id="smooth-wrapper">
