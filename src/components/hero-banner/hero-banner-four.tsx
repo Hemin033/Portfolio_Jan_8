@@ -13,15 +13,16 @@ export default function HeroBannerFour() {
               <div className="tp-hero-3-circle-shape">
                 <span></span>
               </div>
-              <h4 className="tp-hero-3-title hemin-hero-title tp_reveal_anim">
-                <span className="tp-reveal-line">Hi, I’m Hemin</span>
-                <span className="tp-reveal-line">Almost award-winning designer</span>
+              <h4 className="tp-hero-3-title hemin-hero-title tp_reveal_anim mb-4">
+                <span className="tp-reveal-line">Hi, I'm Hemin</span>
+                <span className="tp-reveal-line" style={{paddingBottom: "20px", width: "110%", display: "inline-block"}}>Almost award-winning designer</span>
               </h4>
-              <span className="tp-hero-3-category tp_reveal_anim">
-                Graphic Designer & Art Director with a multidisciplinary approach to solving visual problems.
+              <span className="tp-hero-3-category tp_reveal_anim mb-20" style={{lineHeight: "1.8", width: "100%", display: "block"}}>
+                Graphic Designer & Art Director with a multidisciplinary <br /> approach to solving 
+                visual problems.
               </span>
-              <Link className="tp-btn-black-2" href="/contact">
-                Let’s Talk{" "}
+              <Link className="tp-btn-black-2 mt-30" href="/contact">
+                Let's Talk{" "}
                 <span className="p-relative">
                   <RightArrowTwo />
                   <ArrowBg />
