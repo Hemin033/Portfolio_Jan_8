@@ -78,6 +78,14 @@ export default function PortfolioDetailsFourteenArea() {
       {/* Project Description Section */}
       <div className="showcase-details-2-area pb-120">
         <div className="container">
+
+        <div className="row">
+              <div className="col-xl-8">
+                <div className="showcase-details-2-section-box">
+                    <h4 className="showcase-details-2-section-title rizvi-section-title">Brand Excellence</h4>
+                </div>
+              </div>
+          </div>
           <div className="row">
             <div className="col-xl-3">
               <div className="showcase-details-2-section-left">
@@ -87,7 +95,9 @@ export default function PortfolioDetailsFourteenArea() {
                 </span>
               </div>
             </div>
+            
             <div className="col-xl-9">
+              
               <div className="showcase-details-2-content-right tp_title_anim">
                 <p className="pb-25">This enterprise-grade AI automation platform streamlines complex business processes through intelligent workflow optimization and predictive decision-making capabilities.</p>
                 <p>The platform integrates with existing enterprise systems to provide seamless automation, reducing operational costs while improving accuracy and efficiency across all departments.</p>
@@ -103,22 +113,34 @@ export default function PortfolioDetailsFourteenArea() {
           <div className="row gx-4">
             
             {/* TVC 1 */}
-            <div className="col-xl-12 col-lg-12 col-md-12 mb-60">
-              <div className="tp-project-details-3-thumb">
+            <div className="col-xl-12 col-lg-12 col-md-12 mb-60 pb-100">
+              {/* <div className="tp-project-details-3-thumb">
                 <div className="tp-project-details-3-thumb-box">
-                  <figure className="project-details-video-overlay" data-speed=".8">
-                    <video controls preload="metadata" playsInline style={{ width: '100%' }}>
+                  <figure className="project-details-video-overlay">
+                    <video controls preload="metadata" playsInline autoPlay muted style={{ width: '100%', height: '`900px' }}>
                       <source src={videos[0]} type="video/mp4" />
                     </video>
                   </figure>
                 </div>
-              </div>
+              </div> */}
+                <figure className="project-details-video-overlay">
+                    <video controls preload="metadata" playsInline autoPlay muted style={{ width: '100%', height: '`900px' }}>
+                      <source src={videos[0]} type="video/mp4" />
+                    </video>
+                  </figure>
             </div>
 
             {/* Text Field Before TVC 2 */}
             <div className="col-xl-12 mb-60">
               <div className="showcase-details-2-area">
                 <div className="container">
+                <div className="row">
+              <div className="col-xl-8">
+                <div className="showcase-details-2-section-box">
+                    <h4 className="showcase-details-2-section-title rizvi-section-title">Brand Excellence</h4>
+                </div>
+              </div>
+          </div>
                   <div className="row">
                     <div className="col-xl-3">
                       <div className="showcase-details-2-section-left">
@@ -140,16 +162,16 @@ export default function PortfolioDetailsFourteenArea() {
             </div>
 
             {/* TVC 2 */}
-            <div className="col-xl-12 col-lg-12 col-md-12 mb-60">
-              <div className="tp-project-details-3-thumb">
-                <div className="tp-project-details-3-thumb-box">
-                  <figure className="project-details-video-overlay" data-speed=".6">
-                    <video controls preload="metadata" playsInline style={{ width: '100%' }}>
+            <div className="col-xl-12 col-lg-12 col-md-12 mb-60 pt-120">
+              {/* <div className="tp-project-details-3-thumb">
+                <div className="tp-project-details-3-thumb-box"> */}
+                  <figure className="project-details-video-overlay">
+                  <video controls preload="metadata" playsInline autoPlay muted style={{ width: '100%', height: '`900px' }}>
                       <source src={videos[1]} type="video/mp4" />
                     </video>
                   </figure>
-                </div>
-              </div>
+                {/* </div>
+              </div> */}
             </div>
 
           </div>
@@ -192,7 +214,7 @@ export default function PortfolioDetailsFourteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-thumb-box">
-                    <Image data-speed=".8" src={full_image_2} alt="port-img" style={{ height: 'auto' }}/>
+                    <Image src={full_image_2} alt="port-img" style={{ height: 'auto' }}/>
                   </div>
                 </div>
             </div>
