@@ -5,6 +5,7 @@ import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images
 import full_image from '@/assets/img/inner-project/portfolio-details-3/portfolio-img-1.jpg';
@@ -230,6 +231,10 @@ export default function PortfolioDetailsFourteenArea() {
     {/* details area */}
 
      {/* removed image slider for TVC focus */}
+     
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-14" />
+      {/* portfolio navigation */}
     </>
   )
 }

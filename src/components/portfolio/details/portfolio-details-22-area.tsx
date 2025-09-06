@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ScrollDownTwo } from '@/components/svg';
 import { scroller } from 'react-scroll';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // Import Signi images
 import hero_image from '@/assets/img/inner-project/signi/1.jpg';
@@ -276,6 +277,10 @@ const PortfolioDetailsTwentyTwoArea = () => {
       {/* fourth 3 images */}
 
       {/* removed full-width and remaining scroll sections to keep consistent 3-column grids */}
+      
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-22" />
+      {/* portfolio navigation */}
     </>
   );
 };

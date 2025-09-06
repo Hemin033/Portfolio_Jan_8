@@ -5,6 +5,7 @@ import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images
 import full_image from '@/assets/img/inner-project/officers-choice/OCW-Packaging-Redesign-06-1-e1554806392835.jpg';
@@ -262,6 +263,10 @@ export default function PortfolioDetailsThirteenArea() {
           </div>
       </div>
       {/* packaging gallery showcase */}
+      
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-13" />
+      {/* portfolio navigation */}
     </>
   )
 }

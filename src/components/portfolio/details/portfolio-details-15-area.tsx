@@ -5,6 +5,7 @@ import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images
 import full_image from '@/assets/img/inner-project/redd/Red-Logo-on-red-colour.jpg';
@@ -202,6 +203,10 @@ export default function PortfolioDetailsFifteenArea() {
           </div>
       </div>
       {/* gallery showcase */}
+      
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-15" />
+      {/* portfolio navigation */}
     </>
   )
 }

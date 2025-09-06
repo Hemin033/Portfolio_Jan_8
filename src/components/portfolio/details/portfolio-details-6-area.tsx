@@ -5,6 +5,7 @@ import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images
 import full_image from '@/assets/img/inner-project/fatmans-cafe/logo-5-e1554790199183.jpg';
@@ -202,6 +203,10 @@ export default function PortfolioDetailsSixArea() {
           </div>
       </div>
       {/* gallery showcase */}
+
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-6" />
+      {/* portfolio navigation */}
     </>
   )
 }

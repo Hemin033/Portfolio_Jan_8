@@ -5,6 +5,7 @@ import {Autoplay} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
 import Image from 'next/image';
 import { Leaf, ScrollDownTwo,UpArrowFour} from '@/components/svg';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images
 import full_image from '@/assets/img/inner-project/rizvi/Old-and-New-Logo.jpg';
@@ -227,6 +228,10 @@ export default function PortfolioDetailsSixteenArea() {
           </div>
       </div>
       {/* gallery showcase */}
+
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-16" />
+      {/* portfolio navigation */}
     </>
   )
 }

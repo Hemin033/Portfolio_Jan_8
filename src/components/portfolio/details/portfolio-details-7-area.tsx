@@ -5,6 +5,7 @@ import { ScrollDownTwo } from '@/components/svg';
 import {Swiper,SwiperSlide} from 'swiper/react';
 import {Autoplay, Navigation, Pagination} from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images
 import hero_image from '@/assets/img/inner-project/skoda/1.jpg';
@@ -276,6 +277,9 @@ export default function PortfolioDetailsSevenArea() {
       </div>
       {/* remaining images scroll */}
 
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-7" />
+      {/* portfolio navigation */}
     </>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { scroller } from 'react-scroll';
 import { Leaf, ScrollDownTwo, UpArrowFour } from '@/components/svg';
+import PortfolioNavigation from '../portfolio-navigation';
 
 // images (BGauss) - use public paths
 const img1 = '/assets/img/inner-project/bgauss/1.jpg';
@@ -184,6 +185,10 @@ export default function PortfolioDetailsTenArea() {
       {/* masonry handles all images; removed extra grid rows to avoid duplicates */}
 
       {/* end sticky + masonry */}
+      
+      {/* portfolio navigation */}
+      <PortfolioNavigation currentPath="/portfolio-details-10" />
+      {/* portfolio navigation */}
     </>
   )
 }
