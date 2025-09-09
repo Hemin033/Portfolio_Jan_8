@@ -4,7 +4,7 @@ import PortfolioDetailsSixMain from "@/pages/portfolio/details/portfolio-details
 
 
 export const metadata: Metadata = {
-  title: "Liko - Portfolio Details 6 page",
+  title: "Hemin - Portfolio Details 6 page",
 };
 
 const PortfolioDetailsSixPage = () => {

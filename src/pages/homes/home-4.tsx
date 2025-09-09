@@ -23,6 +23,7 @@ import { fadeAnimation, revelAnimationOne } from "@/utils/title-animation";
 import { projectThreeAnimation } from "@/utils/project-anim";
 import { ctaAnimation } from "@/utils/cta-anim";
 import HeaderEleven from "@/layouts/headers/header-eleven";
+import FooterTwo from "@/layouts/footers/footer-two";
 
 const HomeFourMain = () => {
   useScrollSmooth();

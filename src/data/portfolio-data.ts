@@ -121,25 +121,7 @@ export const portfolio_data: PortfolioItem[] = [
     show: "cat5",
     detailsPath: "/portfolio-details-14",
   },
-  {
-    id: 14,
-    img: "/assets/img/inner-project/portfolio-col-2/port-5.jpg",
-    category: "TVC",
-    title: "JBCN",
-    year: "2024",
-    show: "cat5",
-    detailsPath: "/portfolio-details-18",
-  },
   // PRODUCTS (cat7)
-  {
-    id: 15,
-    img: "/assets/img/inner-project/portfolio-col-2/port-6.jpg",
-    category: "Products",
-    title: "Custom ChatGPT",
-    year: "2024",
-    show: "cat7",
-    detailsPath: "/portfolio-details-19",
-  },
   {
     id: 16,
     img: "/assets/img/inner-project/portfolio-col-2/port-7.jpg",
