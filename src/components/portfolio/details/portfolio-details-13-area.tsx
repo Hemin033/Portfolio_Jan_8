@@ -165,7 +165,7 @@ export default function PortfolioDetailsThirteenArea() {
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
                     <p className="pb-25">This also worked as our pitch to the client. Although the clients were hesitant to change the current look but they were very happy and appreciative of our approach and effort.</p>
-                    <p>The comprehensive packaging redesign explores contemporary visual language while respecting the brand's heritage and market position in the competitive whisky segment.</p>
+                    <p>The comprehensive packaging redesign explores contemporary visual language while respecting the brand&apos;s heritage and market position in the competitive whisky segment.</p>
                 </div>
               </div>
           </div>
