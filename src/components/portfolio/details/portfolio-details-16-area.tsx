@@ -124,7 +124,7 @@ export default function PortfolioDetailsSixteenArea() {
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
                       <p className="pb-25">Rizvi Institute of Management Studies & Research is a leader amongst the new generation of B-schools in India today. In more than 2 decades of existence, the institute has already created a niche for itself in the field of management education.</p>
-                      <p>We have created a comprehensive brand experience that is clean, simple, honest and professional. We have created a visual identity that scales and co-brands well. The new visual storytelling is evocative, real, and clear, and the voice captures Rizvi's devotion to the success of its students, collaborative spirit, and integrity.</p>
+                      <p>We have created a comprehensive brand experience that is clean, simple, honest and professional. We have created a visual identity that scales and co-brands well. The new visual storytelling is evocative, real, and clear, and the voice captures Rizvi&apos;s devotion to the success of its students, collaborative spirit, and integrity.</p>
                   </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@ export default function PortfolioDetailsSixteenArea() {
               </div>
               <div className="col-xl-9">
                 <div className="showcase-details-2-content-right tp_title_anim">
-                    <p className="pb-25">Messaging centers around empowerment, accessibility and academic excellence. The logo embodies Rizvi's tradition of focussing on excellence in education and life.</p>
+                    <p className="pb-25">Messaging centers around empowerment, accessibility and academic excellence. The logo embodies Rizvi&apos;s tradition of focussing on excellence in education and life.</p>
                     <p>Set up in the serene and scenic neighborhood of Carter Road Bandra, the RIMSR provides students with an infrastructure that enables conducive atmosphere for learning. Our graduates are young aspirants battling their way up with cannons of confidence and competence instilled in them by the institute.</p>
                 </div>
               </div>

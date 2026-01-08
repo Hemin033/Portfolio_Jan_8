@@ -88,7 +88,7 @@ const PortfolioDetailsTwentyTwoArea = () => {
             </div>
             <div className="col-xl-9">
               <div className="showcase-details-2-content-right tp_title_anim">
-                <p className="pb-25">Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand's commitment to sustainability and cutting-edge technology in the automotive industry.</p>
+                <p className="pb-25">Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand&apos;s commitment to sustainability and cutting-edge technology in the automotive industry.</p>
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ const PortfolioDetailsTwentyTwoArea = () => {
                 </div> */}
             <div className="col-xl-3 ">
               <div className="showcase-details-2-content-right tp_title_anim">
-                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand's commitment to sustainability and cutting-edge technology in the automotive industry.</p>
+                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand&apos;s commitment to sustainability and cutting-edge technology in the automotive industry.</p>
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ const PortfolioDetailsTwentyTwoArea = () => {
                 </div> */}
             <div className="col-xl-3 ">
               <div className="showcase-details-2-content-right tp_title_anim">
-                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand's commitment to sustainability and cutting-edge technology in the automotive industry.</p>
+                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand&apos;s commitment to sustainability and cutting-edge technology in the automotive industry.</p>
               </div>
             </div>
           </div>
@@ -255,7 +255,7 @@ const PortfolioDetailsTwentyTwoArea = () => {
                 </div> */}
             <div className="col-xl-3 ">
               <div className="showcase-details-2-content-right tp_title_anim">
-                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand's commitment to sustainability and cutting-edge technology in the automotive industry.</p>
+                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand&apos;s commitment to sustainability and cutting-edge technology in the automotive industry.</p>
               </div>
             </div>
           </div>
@@ -324,7 +324,7 @@ const PortfolioDetailsTwentyTwoArea = () => {
                 </div> */}
             <div className="col-xl-3 ">
               <div className="showcase-details-2-content-right tp_title_anim">
-                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand's commitment to sustainability and cutting-edge technology in the automotive industry.</p>
+                <p className="pb-25 " style={{ minWidth: '1200px' }}>Signi challenged us to create a compelling automotive campaign that showcases their innovative design and engineering excellence. The project focused on highlighting the brand&apos;s commitment to sustainability and cutting-edge technology in the automotive industry.</p>
               </div>
             </div>
           </div>

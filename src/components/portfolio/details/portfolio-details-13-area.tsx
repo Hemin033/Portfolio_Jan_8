@@ -71,7 +71,7 @@ export default function PortfolioDetailsThirteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">Officer's Choice</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">Officer&apos;s Choice</h2>
                   </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@ export default function PortfolioDetailsThirteenArea() {
 
       {/* full image */}
       <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="Officer's Choice Whisky Packaging Redesign" style={{ height: 'auto' }}/>
+          <Image data-speed=".8" src={full_image} alt="Officer&apos;s Choice Whisky Packaging Redesign" style={{ height: 'auto' }}/>
       </div>
       {/* full image */}
 
@@ -113,7 +113,7 @@ export default function PortfolioDetailsThirteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-2-section-box">
-                      <h4 className="showcase-details-2-section-title rizvi-section-title">World's largest selling whisky</h4>
+                      <h4 className="showcase-details-2-section-title rizvi-section-title">World&apos;s largest selling whisky</h4>
                   </div>
                 </div>
             </div>
@@ -128,8 +128,8 @@ export default function PortfolioDetailsThirteenArea() {
                 </div>
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
-                      <p className="pb-25">Launched in 1988 and positioned in the regular whiskey segment, Officer's Choice Whisky is one of the largest whisky brands in the world and also one of the largest exported spirits brand with a presence in over 18 countries.</p>
-                      <p>As part of our internal exercise we pick up any brand and try to see it from a different contemporary perspective. As part of this exercise we visualized rebranding of Officer's Choice whisky.</p>
+                      <p className="pb-25">Launched in 1988 and positioned in the regular whiskey segment, Officer&apos;s Choice Whisky is one of the largest whisky brands in the world and also one of the largest exported spirits brand with a presence in over 18 countries.</p>
+                      <p>As part of our internal exercise we pick up any brand and try to see it from a different contemporary perspective. As part of this exercise we visualized rebranding of Officer&apos;s Choice whisky.</p>
                   </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ export default function PortfolioDetailsThirteenArea() {
 
     {/*details thumb */}
         <div id="xyz" className="tp-project-details-3-full-width-thumb mb-120">
-            <Image data-speed=".8" src={full_image_2} alt="Officer's Choice Bottle Design Concepts" style={{ height: 'auto' }}/>
+            <Image data-speed=".8" src={full_image_2} alt="Officer&apos;s Choice Bottle Design Concepts" style={{ height: 'auto' }}/>
         </div>
     {/* details thumb */}
 
@@ -179,84 +179,84 @@ export default function PortfolioDetailsThirteenArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                                             <Image src={port_img_1} alt="Officer's Choice Packaging Design 1" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                                             <Image src={port_img_1} alt="Officer&apos;s Choice Packaging Design 1" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                                             <Image src={port_img_2} alt="Officer's Choice Packaging Design 2" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                                             <Image src={port_img_2} alt="Officer&apos;s Choice Packaging Design 2" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_3} alt="Officer's Choice Premium Bottle Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_3} alt="Officer&apos;s Choice Premium Bottle Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_4} alt="Officer's Choice Label Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_4} alt="Officer&apos;s Choice Label Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_5} alt="Officer's Choice Brand Identity" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_5} alt="Officer&apos;s Choice Brand Identity" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_6} alt="Officer's Choice Complete Packaging System" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_6} alt="Officer&apos;s Choice Complete Packaging System" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_7} alt="Officer's Choice Bottle Mockup 1" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_7} alt="Officer&apos;s Choice Bottle Mockup 1" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_8} alt="Officer's Choice Premium Bottle Design Showcase" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_8} alt="Officer&apos;s Choice Premium Bottle Design Showcase" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_9} alt="Officer's Choice Bottle Mockup 3" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_9} alt="Officer&apos;s Choice Bottle Mockup 3" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_10} alt="Officer's Choice Premium Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_10} alt="Officer&apos;s Choice Premium Design" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_11} alt="Officer's Choice Luxury Packaging" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_11} alt="Officer&apos;s Choice Luxury Packaging" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-50">
-                      <Image src={port_img_12} alt="Officer's Choice Final Design Concept" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_12} alt="Officer&apos;s Choice Final Design Concept" style={{height: "auto", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>

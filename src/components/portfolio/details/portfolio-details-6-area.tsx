@@ -64,7 +64,7 @@ export default function PortfolioDetailsSixArea() {
             <div className="row">
                 <div className="col-xl-12">
                   <div className="tp-project-details-3-title-box">
-                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">Fat Man's Cafe</h2>
+                      <h2 className="tp-section-title-160 mb-50 tp-char-animation rizvi-title-custom">Fat Man&apos;s Cafe</h2>
                   </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ export default function PortfolioDetailsSixArea() {
 
       {/* full image */}
       <div className="tp-project-details-3-full-width-thumb mb-120">
-          <Image data-speed=".8" src={full_image} alt="Fat Man's Cafe Logo Design" style={{ height: 'auto' }}/>
+          <Image data-speed=".8" src={full_image} alt="Fat Man&apos;s Cafe Logo Design" style={{ height: 'auto' }}/>
       </div>
       {/* full image */}
 
@@ -122,7 +122,7 @@ export default function PortfolioDetailsSixArea() {
                 <div className="col-xl-9">
                   <div className="showcase-details-2-content-right tp_title_anim">
                       <p className="pb-25">A quirky cafe & grill in Mumbai with cool vibe. An ideal place to hang out with friends and enjoy wide variety of food.</p>
-                      <p>This was our pitch to the owner of the cafe Mr. Rajiv Tandon. We created a new visual language based on Fat Man's philosophy. We recreated the mascot of the cafe along with the logo and visual identity.</p>
+                      <p>This was our pitch to the owner of the cafe Mr. Rajiv Tandon. We created a new visual language based on Fat Man&apos;s philosophy. We recreated the mascot of the cafe along with the logo and visual identity.</p>
                   </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ export default function PortfolioDetailsSixArea() {
 
     {/*details thumb */}
         <div id="xyz" className="tp-project-details-3-full-width-thumb mb-120">
-            <Image data-speed=".8" src={full_image_2} alt="Fat Man's Cafe Logo Mockup on Wood" style={{ height: 'auto' }}/>
+            <Image data-speed=".8" src={full_image_2} alt="Fat Man&apos;s Cafe Logo Mockup on Wood" style={{ height: 'auto' }}/>
         </div>
     {/* details thumb */}
 
@@ -172,31 +172,31 @@ export default function PortfolioDetailsSixArea() {
          <div className="row gx-30">
                 <div className="col-xl-6 col-lg-6" col-md-6>
                   <div className="showcase-details-thumb mb-30">
-                      <Image data-speed=".8" src={port_img_1} alt="Fat Man's Cafe Logo Design" height="570"/>
+                      <Image data-speed=".8" src={port_img_1} alt="Fat Man&apos;s Cafe Logo Design" height="570"/>
                   </div>
                 </div>
                   <div className="col-xl-6 col-lg-6">
                   <div className="showcase-details-thumb mb-80">
-                      <Image data-speed=".8" src={port_img_2} alt="Fat Man's Cafe Mascot Design" style={{height: "auto"}}/>
+                      <Image data-speed=".8" src={port_img_2} alt="Fat Man&apos;s Cafe Mascot Design" style={{height: "auto"}}/>
                   </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-xl-12">
                   <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_3} alt="Fat Man's Cafe Menu Design" style={{height: "850px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_3} alt="Fat Man&apos;s Cafe Menu Design" style={{height: "850px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
             <div className="row gx-30">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_4} alt="Fat Man's Cafe Signage" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_4} alt="Fat Man&apos;s Cafe Signage" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="showcase-details-thumb mb-30">
-                      <Image src={port_img_5} alt="Fat Man's Cafe Interior Branding" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
+                      <Image src={port_img_5} alt="Fat Man&apos;s Cafe Interior Branding" style={{height: "400px", width: "100%", objectFit: "cover", objectPosition: "center"}}/>
                   </div>
                 </div>
             </div>
